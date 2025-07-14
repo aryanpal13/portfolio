@@ -175,7 +175,7 @@ export const SkillsInfo = [
       img: cdgi,
       school: "Chameli Devi Group of Institutions (CDGI), Indore",
       date: "Sept 2022 - July 2026 (Expected)",
-      grade: "7.81 CGPA",
+      grade: "7 CGPA",
       desc: "I am currently pursuing my Bachelor's degree (B.Tech) in Computer Science and Engineering from Chameli Devi Group of Institutions (CDGI), Indore, affiliated with RGPV. During the course, I have developed a solid foundation in core computer science subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I've also taken part in workshops, technical events, and coding contests that helped sharpen my skills and practical understanding. My ongoing experience at CDGI continues to strengthen my technical knowledge and shape me into a competent software professional.",
       degree: "Bachelor of Technology - B.Tech in Computer Science and Engineering (CSE)",
     },
