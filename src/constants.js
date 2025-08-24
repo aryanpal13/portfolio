@@ -47,6 +47,7 @@ import githubdetLogo from './assets/work_logo/github_det.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import drumLogo from './assets/work_logo/drum.png';
 import goturf from './assets/work_logo/goturf.png';
+import mernAuth from './assets/work_logo/mernAuth.png';
 import simonLogo from './assets/work_logo/simon.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
@@ -203,6 +204,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "MERN Auth - User Authentication System",
+      description:
+        "MERN Auth is a full-featured user authentication system built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides secure user registration, login, and profile management functionalities. The application implements JWT (JSON Web Tokens) for session management and bcrypt for password hashing, ensuring robust security measures. The frontend is designed with React.js and styled using Tailwind CSS for a responsive and user-friendly interface.",
+      image: mernAuth,
+      tags: ["React JS", "Tailwind CSS", "JavaScript", "Node JS", "Express JS", "MongoDB", "JWT", "Bcrypt"],
+      github: "https://github.com/aryanpal13/goTurf",
+      // webapp: "",
+    },
+    {
+      id: 1,
       title: "GoTurf - Sports Facility Booking",
       description:
         "GoTurf is a modern, full-stack web application for booking sports turfs. It connects sports enthusiasts with local turf owners, providing a seamless and intuitive platform to find, reserve, and manage turf bookings. The platform is designed to be fully responsive and offers a protected admin panel for turf owners to manage their listings and business operations.",
@@ -212,7 +223,7 @@ export const SkillsInfo = [
       // webapp: "",
     },
     {
-      id: 1,
+      id: 2,
       title: "Simon-says Game",
       description:
         "Simon Says is a browser-based memory game built using HTML, CSS and JavaScript. The game challenges players to repeat an ever-growing sequence of button flashes and sounds. Each correct input increases the sequence length, testing the player's memory and attention with every round.",
@@ -222,7 +233,7 @@ export const SkillsInfo = [
       // webapp: "",
     },
     {
-      id: 2,
+      id: 3,
       title: "Drum Kit",
       description:
         "A dynamic and interactive drum kit web application that lets users play virtual drums using either their keyboard or on-screen buttons. The app features real-time sound playback, visual feedback, and a clean, responsive UI. Built entirely with HTML, CSS, and JavaScript, and powered by a simple Node.js + Express backend.",
