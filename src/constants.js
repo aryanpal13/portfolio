@@ -46,6 +46,7 @@ import cdgi from './assets/education_logo/cdgi.jpg';
 import githubdetLogo from './assets/work_logo/github_det.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import drumLogo from './assets/work_logo/drum.png';
+import goturf from './assets/work_logo/goturf.png';
 import simonLogo from './assets/work_logo/simon.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
@@ -67,10 +68,10 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       // { name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
-      // { name: 'Next JS', logo: nextjsLogo },
+      { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
-      // { name: 'Material UI', logo: materialuiLogo },
+      { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
@@ -95,7 +96,7 @@ export const SkillsInfo = [
       // { name: 'Python', logo: pythonLogo },
       // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      // { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -107,8 +108,8 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       // { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      // { name: 'Netlify', logo: netlifyLogo },
-      // { name: 'Figma', logo: figmaLogo },
+      { name: 'Netlify', logo: netlifyLogo },
+      { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];
@@ -131,7 +132,7 @@ export const SkillsInfo = [
         "Tailwind CSS",
         "MongoDb",
         "Redux",
-        " Next Js",
+        "Next Js",
       ],
     },
     {
@@ -202,6 +203,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "GoTurf - Sports Facility Booking",
+      description:
+        "GoTurf is a modern, full-stack web application for booking sports turfs. It connects sports enthusiasts with local turf owners, providing a seamless and intuitive platform to find, reserve, and manage turf bookings. The platform is designed to be fully responsive and offers a protected admin panel for turf owners to manage their listings and business operations.",
+      image: goturf,
+      tags: ["React JS", "Tailwind CSS", "Material UI", "JavaScript", "Appwrite", "OAuth2"],
+      github: "https://github.com/aryanpal13/goTurf",
+      // webapp: "",
+    },
+    {
+      id: 1,
       title: "Simon-says Game",
       description:
         "Simon Says is a browser-based memory game built using HTML, CSS and JavaScript. The game challenges players to repeat an ever-growing sequence of button flashes and sounds. Each correct input increases the sequence length, testing the player's memory and attention with every round.",
@@ -211,7 +222,7 @@ export const SkillsInfo = [
       // webapp: "",
     },
     {
-      id: 1,
+      id: 2,
       title: "Drum Kit",
       description:
         "A dynamic and interactive drum kit web application that lets users play virtual drums using either their keyboard or on-screen buttons. The app features real-time sound playback, visual feedback, and a clean, responsive UI. Built entirely with HTML, CSS, and JavaScript, and powered by a simple Node.js + Express backend.",
